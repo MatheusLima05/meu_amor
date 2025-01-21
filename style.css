@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da tela */
+    text-align: center;
+}
+
+.vertical {
+    flex-direction: column;
+    padding: 20px; /* Espaçamento interno para melhor leitura */
+    max-width: 600px; /* Largura máxima para facilitar a leitura */
+    margin: auto; /* Centraliza o container verticalmente */
+    font-size: 200%;
+    height: 10%;
+   
+}
+
+body {
+    background-color: rgb(152, 248, 255);
+}
+
+h1 {
+    font-size: 3em;
+    height: 100%;
+}
+.arrasta {
+    text-align: center;
+    margin-top: -80vh;
+    font-size: 3em;
+
+}
