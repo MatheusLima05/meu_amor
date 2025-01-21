@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da tela */
+    text-align: center;
+}
+
+.centralizado {
+    font-size: 2em; /* Aumenta o tamanho do texto do botão */
+    padding: 90px 100px; /* Aumenta o tamanho do botão */
+    margin-top: 20px; /* Espaçamento superior */
+    
+}
+
+body {
+    background-color: rgb(237, 146, 255);
+}
